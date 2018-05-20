@@ -1,0 +1,95 @@
+
+
+body {
+    background-image: url(../images/agate.png);
+}
+
+#header {
+    background-color: brown;
+    color: white;
+    font-size: 30px;
+    padding: 30px 5px 30px 5px;
+    margin: 10px 30% 10px 10px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#instructions {
+    background-color: darkseagreen;
+    display: inline-block; 
+    margin: 10px 51% 30px 10px; 
+    font-family: Arial, Helvetica, sans-serif;  
+    padding: 20px 5px 100px 5px;
+    font-size: 18px;
+}
+
+#instructions p {
+    margin-bottom: 20px;
+}
+#row {
+    
+}
+
+#row #target {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-flex;
+    width: 275px;
+    height: 175px;
+    padding: 5px 0px 0px 5px;
+    font-size: 30px;
+}
+
+#row #winLose {
+    background-color: aqua;
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-flex;
+    overflow: auto;
+    width: 140px;
+    height: 175px;
+    margin-top: -10px;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+#wins {
+    margin-bottom: 10px;
+}
+
+/* photos sourced from https://www.iconfinder.com/search/?q=jewel&price=free */
+.btn-group {
+    float: left;
+    margin: 0px 40% 10px 10px;
+}
+
+#btn1, #btn2, #btn3, #btn4 {
+    width: 150px;
+    height: 150px;
+    overflow: auto;
+    align-content: center;
+}
+
+#scoreText {
+    background-color: dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 60%;
+    width: 275px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+#score {
+    background-color: dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    width: 275px;
+    height: 175px;
+    padding: 5px 0px 0px 5px;
+    font-size: 30px;
+    margin: 10px 0px 10px 10px;
+}
+

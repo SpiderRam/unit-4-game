@@ -89,15 +89,4 @@ $(document).ready(function() {
             }   
       })  
       
-  /*  $("btn4").on ('click', function(){
-        userTotal = userTotal + num4;
-        console.log("New userTotal= " + userTotal);
-        $("#score").text(userTotal); 
-            if (userTotal == Random){
-              win();
-            } else if ( userTotal > Random){
-              loss();
-            }
-    });   
-    */
 });

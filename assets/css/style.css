@@ -5,21 +5,34 @@ body {
 }
 
 #header {
-    background-color: brown;
-    color: white;
-    font-size: 30px;
-    padding: 30px 5px 30px 5px;
-    margin: 10px 30% 10px 10px;
+    background-image: url("https://images.fineartamerica.com/images-medium-large/black-river-stones-landscape-steve-gadomski.jpg");
+    padding: 50px 5px 50px 5px;
+    width: 100%;
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+#headerText {
+    background-color: blue;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Vast Shadow', cursive;
+}
+
+#divBox {
+    display: inline-block; 
+    width: 80%;
+    margin: 20px 10% 20px 10%;
+    background-color: darkseagreen;
+    padding: 20px 5px 20px 5px;
+    border: 5px double black;
 }
 
 #instructions {
-    background-color: darkseagreen;
-    display: inline-block; 
-    margin: 10px 51% 30px 10px; 
+    
+     
     font-family: Arial, Helvetica, sans-serif;  
-    padding: 20px 5px 100px 5px;
+    
     font-size: 18px;
 }
 
@@ -27,18 +40,20 @@ body {
     margin-bottom: 20px;
 }
 #row {
-    margin: 10px; 
+    margin: 10px 10% 10px 10%; 
+    
 }
 
 #row #target {
     background-color: green;
     font-family: Arial, Helvetica, sans-serif;
     display: inline-flex;
-    width: 275px;
+    width: 80%;
     height: 175px;
-    padding: 5px 0px 0px 5px;
-    font-size: 30px;
-    
+    font-size: 150px;
+    border: 2px solid black;
+    margin-right: 15px;
+    padding: 10px 0px 0px 10px;
 }
 
 #row #winLose {
@@ -46,11 +61,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: inline-flex;
     vertical-align: top;
-    width: 140px;
+    width: 15%;
     height: 175px;
     font-size: 20px;
     flex-wrap: wrap;
     padding: 5px 0px 0px 5px;
+    border: 2px solid black;
 }
 
 #wins {
@@ -59,8 +75,9 @@ body {
 
 /* photos sourced from https://www.iconfinder.com/search/?q=jewel&price=free */
 .btn-group {
-    float: left;
-    margin: 0px 40% 10px 10px;
+    margin: 10px 20% 10px 20%;
+    align-content: center;
+    padding-left: 45px;
 }
 
 #btn1, #btn2, #btn3, #btn4 {
@@ -72,15 +89,16 @@ body {
 
 #scoreText {
     background-color: dodgerblue;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Vast Shadow', cursive;
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 60%;
+    margin: 10px 40% 10px 40%;
     width: 275px;
-    height: 30px;
-    color: white;
-    font-size: 20px;
+    height: 70px;
+    color: black;
+    font-size: 30px;
     padding: 5px 0px 0px 5px;
+    border: 2px solid black;
+    overflow: auto;
 }
 
 #score {
@@ -91,6 +109,7 @@ body {
     height: 175px;
     padding: 5px 0px 0px 5px;
     font-size: 30px;
-    margin: 10px 0px 10px 10px;
+    margin: 10px 40% 10px 40%;
+    border: 2px solid black;
 }
 

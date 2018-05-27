@@ -1,9 +1,11 @@
+/* Code heavily sourced from: https://github.com/jahdasha/crystal-game/blob/master/assets/javascript/javascript.js */
+
 $(document).ready(function() {
     console.log("ready!");
 
     var Random = Math.floor(Math.random() *101 + 19);
                     
-    $("#target").text(Random);
+    $("#target").text("Goal: " + Random);
 
     var num1= Math.floor(Math.random() * 11 + 1)
     var num2= Math.floor(Math.random() * 11 + 1)
@@ -19,7 +21,6 @@ $(document).ready(function() {
 
     function reset(){
         Random=Math.floor(Math.random()*101+19);
-        console.log(Random)
         $('#target').text(Random);
         num1= Math.floor(Math.random()*11+1);
         num2= Math.floor(Math.random()*11+1);
@@ -45,7 +46,6 @@ $(document).ready(function() {
 
     $("#btn1").on ('click', function(){
         userTotal = userTotal + num1;
-        console.log("New userTotal= " + userTotal);
         $("#score").text(userTotal); 
             if (userTotal == Random){
               win();
@@ -57,7 +57,6 @@ $(document).ready(function() {
 
     $("#btn2").on ('click', function(){
         userTotal = userTotal + num2;
-        console.log("New userTotal= " + userTotal);
         $("#score").text(userTotal); 
             if (userTotal == Random){
                 win();
@@ -68,7 +67,6 @@ $(document).ready(function() {
 
     $("#btn3").on ('click', function(){
         userTotal = userTotal + num3;
-        console.log("New userTotal= " + userTotal);
         $("#score").text(userTotal);
             if (userTotal == Random){
             win();
@@ -79,7 +77,6 @@ $(document).ready(function() {
 
     $("#btn4").on ('click', function(){
         userTotal = userTotal + num4;
-        console.log("New userTotal= " + userTotal);
         $("#score").text(userTotal); 
             if (userTotal == Random){
               win();
